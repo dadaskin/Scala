@@ -1,0 +1,10 @@
+Scala Essential Training   Released 19-Jan-2024
+-----------------------------------------------
+24-Mar-2025
+
+0. Introduction:
+----------------
+   Using JDK21
+   Using IntelliJ CE as an IDE  w/Scala plugin
+  
+Rockthejvm.com for advanced courses  

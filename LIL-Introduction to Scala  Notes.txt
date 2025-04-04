@@ -1,0 +1,142 @@
+LinkedIn Learning : Introduction to Scala
+------------------------------------------
+19-Mar-2025
+
+Amina Adewusi
+Released 11-Mar-2022
+
+Chapter 0: Introduction
+-----------------------
+Prereqs:
+  - Text Editor or IDE
+  - Terminal or CMD prompts
+  - Basic programming concepts
+  
+- SCAlable LAnguage
+- Compiles to Java Bytecodes, runs on JVM.
+- Terser than Java
+- OOP and FP
+- FP:
+  - Eliminates mutability
+  - Cannot reassign values of immutable vars (just make a copy)
+  - Fewer bugs
+  - Easier to test
+- Statically typed
+- Type inference
+- Scala 3  (2021)
+
+scala-lang.org
+   cs-x86_64-pc-win32 installs Scala and sbt.  Restart system to reload PATH.
+   
+Works with JDK 8, 11, 21  (also probably 17)
+To check if everyhing is working
+  scala --version   (Returns 3.6.4)
+
+  cd <Scala course example folder> 
+  sbt
+     <eventually starts "sbt server">
+	 
+prompt:
+  sbt:<Scala cours example folder>
+  
+  console   <-- To start repl (interactive mode)
+
+  Prompt:
+    scala>
+  
+  Type:
+     1 + 1 <Enter>
+  
+  val res0: Int = 2
+    
+To quit console:    ":quit"
+To quit sbt server: exit
+
+Using IntelliJ CE
+Unzip exercises
+  - In build.sbt change scalaVersion to "3.6.4"
+  - In Project Structure make sure this targets JDK 8.
+  - Click on "Sync sbt changes" icon on right side of code editor window.  	
+  - Then Build >> Rebuild Project.
+
+  Now none of the example show syntax errors and build completes successfully.
+ 
+ 
+Chapter 1: Our First Scala Project
+----------------------------------
+Create a new Scala project:
+   From: https://github.com/scala/scala3.g8  README
+      "Template Usage"
+	     sbt new scala/scala3.g8 
+		 
+      Paste this command int CMD prompt.
+	  
+	  
+Chapter 2: First Scala Function    
+-------------------------------
+Values and Types:
+   Values:
+     - Similar to variables, but immutable.
+	 - Compiler can infer types.
+   Types:
+     - Predefined: String, int, boolean, double
+	 - Custom: "case classes"
+	 - Statically typed
+	 
+How to define a function:
+  - Keyword: def	 
+  - named parameters
+  - Default params
+  
+
+Chapter 3: Control Structures
+-----------------------------
+if [else if]* else
+
+Pattern Matching: 
+   match [case x => y]*
+   
+   
+Chapter 4: Collections
+-----------------------
+Case Classes:
+Enums:
+    See file Chapter4e.scala
+   
+
+Chapter 5: Options
+------------------
+To get to the "Scala Repl" , in Cmd prompt cd to scala working folder and type "scala".
+In a few seconds the prompt "scala>" will appear.
+
+Options: None, Some()
+
+Map method:  Applies specified expression to any value of a Option[] .
+
+Flat Map: Flattens output of map method.  Useful for nested Option[] values.
+
+For comprehension:  
+  Evaluates any Option[] items, terminates whenever a None is encountered.
+  
+
+Chapter 6: Lists:
+-----------------
+Lists are linked lists and immutable.
+
+"Head", "Tail", "Nil"
+car     cdr      eol
+
+map function on lists.
+flagMap function on lists.
+for comprehensions on lists.
+
+
+Next Steps:
+------------
+  docs.scala-lang.org/scala3/book/introduction.html	
+  
+  "Essential Scala"
+  
+
+
+
