@@ -1,4 +1,3 @@
-/*
 import cats.effect.unsafe.implicits.global
 import doodle.image.Image
 import doodle.core.Color
@@ -39,4 +38,3 @@ object ColoredBlocks {
   @main def drawBlocks(): Unit =
     stack(5).draw()
 }
-*/
