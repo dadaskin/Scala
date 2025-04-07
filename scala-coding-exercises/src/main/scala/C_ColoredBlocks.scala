@@ -1,3 +1,4 @@
+/*
 import cats.effect.unsafe.implicits.global
 import doodle.image.Image
 import doodle.core.Color
@@ -9,11 +10,11 @@ import scala.annotation.tailrec
 //        I Changed build.sbt from Notepad++ and ran it from the command line without a problem
 //        Now when I start IntelliJ it runs here, too.
 //        Same thing with the corresponding test.
-//        
+//
 //        To get sbt from the command prompt:
 //        - CD to the project folder.
 //        - type "sbt" to start the sbt shell.
-//        - tyoe "run" to build and run the project.  
+//        - tyoe "run" to build and run the project.
 //          Sbt will prompt you with a list of all the main classes found.   Select "drawHBlocks"
 //        - Type "test" to run the unit tests
 //
@@ -38,3 +39,4 @@ object ColoredBlocks {
   @main def drawBlocks(): Unit =
     stack(5).draw()
 }
+*/
