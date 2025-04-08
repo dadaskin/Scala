@@ -66,7 +66,7 @@ object Basketball {
   }
 
   // Run this to see an example
-  @main def exampleGame: Unit = {
+  @main def exampleGame(): Unit = {
     val events =
       BasketballGenerator
         .gameEvents(
@@ -81,6 +81,5 @@ object Basketball {
       BasketballGenerator.highbury.name,
       events
     ))
-    
   }
 }
